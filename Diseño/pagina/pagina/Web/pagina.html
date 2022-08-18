@@ -1,0 +1,95 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{% block title %} {% endblock %}</title>
+    <link type='text/css' href='{% static "css/main.css" %}' rel='stylesheet' />
+
+    {% include "home.html" %}
+    <u id="logo">
+        <img src="{% static 'imagenes/logo.jpg'%}" height="180px" width="200px" />
+    </u>
+    <ul id="titulo">
+        <h1>Busqueda Avanzada</h1>
+    </ul>
+    <ul id="busqueda1">
+        <p>
+            Búsqueda por Autor: <input type="search" name="busquedaautor" placeholder="Ingrese el autor">
+        </p>
+    </ul>
+    <ul id="busqueda2">
+        <p>
+            Búsqueda por Palabra Clave: <input type="search" name="busquedapalabra"
+                placeholder="Ingrese la palabra clave">
+        </p>
+    </ul>
+    <ul id="busqueda3">
+        <p>
+            Búsqueda por Titulo: <input type="search" name="busquedatitulo" placeholder="Ingrese el titulo">
+        </p>
+    </ul>
+    <ul id="busqueda4">
+        <p>
+            Búsqueda por Tema: <input type="search" name="busquedatema" placeholder="Ingrese el tema">
+        </p>
+    </ul>
+    <div>
+
+        <ul id="lupa">
+            <img src="{% static 'imagenes/lupa1.jpg'%}" height="100px" width="100px" />
+        </ul>
+    </div>
+    </ul>
+    <div>
+        <ul id="articulo2">
+            <img src="{% static 'imagenes/buscador2.jpg'%}" height="100px" width="100px" />
+        </ul>
+    </div>
+    </ul>
+    <div>
+        <ul id="articulo3">
+            <img src="{% static 'imagenes/buscador3.jpg'%}" height="100px" width="100px" />
+        </ul>
+    </div>
+    <div>
+
+        <!-- css para los link -->
+        <!-- <style type="text/css"> 
+             a { text-decoration: none; 
+                    color: black;} 
+        </style> 
+        <meta charset="UTF-8"> 
+        </head> 
+        <body> 
+        Ir a <a href="pagina1.htm">Página 1</a><br> 
+        Ir a <a href="pagina2.htm">Página 2</a><br> 
+        Ir a <a href="pagina3.htm">Página 3</a><br>  -->
+
+        <ul id="primerlink">
+            <a href=”IniciodeSesion” title=”Esto es un tool.tip”>1999 Revistas 
+                Científicas</a>
+        </ul>
+        <ul id="segundolink">
+            <a href=”IniciodeSesion” title=”Esto es un tool.tip”>41754 Fascículos</a>
+        </ul>
+        <ul id="tercerlink">
+            <a href=”IniciodeSesion” title=”Esto es un tool.tip”>1403 Libros
+                Digitales </a>
+        </ul>
+        
+    </div>
+    <div>
+
+        
+    </div>
+    <div>
+
+        
+    </div>
+    {% block content %}
+    {% endblock %}
+    {% include "pie.html" %}
+    </body>
+
+</html>

@@ -1,0 +1,188 @@
+
+#miBarra{
+    margin: 5px;
+    text-decoration: none; 
+    padding: 5px;
+    list-style: none;
+    text-align: right;
+    text-decoration: black;
+    
+}
+
+#titulo{
+    position: relative;
+    font-size: 20px;
+    bottom: 30px;
+    right: 60px;
+    left: 450px;
+    top: -100px;
+}
+#busqueda1{
+    position: relative;
+    font-size: 25px;
+    bottom: 30px;
+    right: 0px;
+    left: 120px;
+    top: -55px;
+}
+#busqueda2{
+    position: relative;
+    font-size: 25px;
+    bottom: 30px;
+    right: 0px;
+    left: 120px;
+    top: -50px;
+}
+#busqueda3{
+    position: relative;
+    font-size: 25px;
+    bottom: 30px;
+    right: 40px;
+    left: 700px;
+    top: -170px;
+}
+#busqueda4{
+    position: relative;
+    font-size: 25px;
+    bottom: 30px;
+    right: 40px;
+    left: 700px;
+    top: -160px;
+ 
+}
+
+body{
+    background-color: #afdcdf;
+}
+#lupa{
+    position: relative;
+    left: 320px;
+    top: -130px;
+}
+#articulo2{
+    position: relative;
+    left: 630px;
+    top: -250px;
+}
+#articulo3{
+    position: relative;
+    left: 930px;
+    top: -380px;
+}
+#primerlink{
+   
+    position: relative;
+    top: 380px;
+    padding: 70px 4;
+    top: -400px;
+    left: 250px;
+  
+}
+#segundolink{
+   
+    position: relative;
+    top: 380px;
+    padding: 70px 4;
+    top: -450px;
+    left: 600px;
+
+}
+#tercerlink{
+   
+    position: relative;
+    top: 380px;
+    padding: 70px 4;
+    top: -500px;
+    left: 870px;
+
+}
+
+#footer {
+    left: 1000px;
+    top: 380px;
+    padding: 70px 4;
+    top: -380px;
+}
+
+body, input, textarea, select {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.clear, .clear::after, .group, .group::after {
+    clear: both;
+}
+.clear, .group {
+    display: block;
+}
+
+.one_quarter {
+    width: 20%;
+    height: 25%;
+}
+
+.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter {
+    display: inline-block;
+    margin: 2 2 2 2%;
+    list-style: none;
+}
+.row4 {
+    color: #FFFFFF;
+    background-color: #01546B;
+    margin: 0;
+}
+
+html, body {
+    margin: 5;
+    padding: 5;
+    font-size: 20px;
+    line-height: 1.6em;
+}
+
+body {
+    display: block;
+    margin: 10px;
+}
+
+#piedepagina{
+
+    position: relative;
+    top: 380px;
+    padding: 70px 4;
+    top: -420px;
+    right: 200px;
+    left: -20px;
+
+}
+#fotojonnathan{
+    position: relative;
+    left: -400px;
+    top: 40px;
+
+}
+#fotoluis{
+    position: relative;
+    left: 800px;
+    top: -530px;
+    right: 100px;
+
+}
+#opinionjonnaathan{
+    position: relative;
+    left: 100px;
+    top: 30px;
+    text-align: justify;
+    font-size: medium;
+}
+
+#opinionluis{
+    position: relative;
+    left: 760px;
+    top: -540px;
+    text-align: justify;
+    font-size: medium;
+    
+}
+
+
+
+
